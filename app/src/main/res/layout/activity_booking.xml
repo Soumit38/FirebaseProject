@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.soumit.firebaseauthentication.Others.BookingActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:id="@+id/rellayout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="Booking Activity"
+                android:layout_marginTop="15dp"
+                android:textColor="@color/Green"
+                android:textSize="20sp"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="162dp" />
+
+
+        </RelativeLayout>
+
+        <include layout="@layout/layout_bottom_navigation_view" />
+
+        <RelativeLayout
+            android:id="@+id/nameLayout"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="10dp"
+            android:layout_below="@id/rellayout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/dname"
+                android:text="Doctor Name: "
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:layout_marginBottom="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/ttl"
+                android:layout_below="@+id/dname"
+                android:textSize="18sp"
+                android:textStyle="normal"
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/grey_border_bottom"
+                android:text="" />
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/addressLayout"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="10dp"
+            android:layout_below="@id/nameLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/daddress"
+                android:textStyle="bold"
+                android:text="Address: "
+                android:textSize="18sp"
+                android:layout_marginBottom="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/showAddress"
+                android:layout_below="@+id/daddress"
+                android:textSize="18sp"
+                android:textStyle="normal"
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/grey_border_bottom"
+                android:text="" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/qLayout"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="10dp"
+            android:layout_below="@id/addressLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/dq"
+                android:textStyle="bold"
+                android:text="Qualifications: "
+                android:textSize="18sp"
+                android:layout_marginBottom="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/showQualifications"
+                android:layout_below="@+id/dq"
+                android:textSize="18sp"
+                android:textStyle="normal"
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/grey_border_bottom"
+                android:text="" />
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/vLayout"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="10dp"
+            android:layout_below="@id/qLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/qualifications"
+                android:textStyle="bold"
+                android:text="Visiting Hours: "
+                android:textSize="18sp"
+                android:layout_marginBottom="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/showVisitingHours"
+                android:layout_below="@+id/qualifications"
+                android:textSize="18sp"
+                android:textStyle="normal"
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/grey_border_bottom"
+                android:text="" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_below="@+id/vLayout"
+            android:gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/request"
+                android:textSize="18sp"
+                android:layout_marginTop="50dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:textAllCaps="false"
+                android:text="Request for appointment"/>
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/desc"
+            android:textSize="20dp"
+            android:gravity="center_horizontal"
+            android:visibility="gone"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/rellayout1"
+            android:layout_marginTop="150dp"
+            android:text="dummy text" />
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

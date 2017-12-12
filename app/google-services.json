@@ -1,0 +1,104 @@
+{
+  "project_info": {
+    "project_number": "530924091378",
+    "firebase_url": "https://fir-notifications-dc7e2.firebaseio.com",
+    "project_id": "fir-notifications-dc7e2",
+    "storage_bucket": "fir-notifications-dc7e2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:530924091378:android:f72aad3412d784f6",
+        "android_client_info": {
+          "package_name": "info.androidhive.firebasenotifications"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "530924091378-o3pidu8or6beho99q07ebf1g328349l9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQRb2XYGRKP9uNizC47K29zVgysJOmNAo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:530924091378:android:4d5c77acc8ccf1db",
+        "android_client_info": {
+          "package_name": "com.soumit.firebasecrud"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "530924091378-o3pidu8or6beho99q07ebf1g328349l9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQRb2XYGRKP9uNizC47K29zVgysJOmNAo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:530924091378:android:6215fc99defc187e",
+        "android_client_info": {
+          "package_name": "com.soumit.firebaseauthentication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "530924091378-o3pidu8or6beho99q07ebf1g328349l9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQRb2XYGRKP9uNizC47K29zVgysJOmNAo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
